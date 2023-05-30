@@ -24,13 +24,17 @@ form.addEventListener("click", (e) => {
     let password = document.getElementById("password").value;
     let username = document.getElementById("username").value;
     if (password === "login06" && username === "login") {
+      setTimeout(() => {
         window.location.href = "./Sahifa.html"
+      }, 1200);
 
+        let tasdiq = document.querySelector(".tasdiq")
+        tasdiq.style. opacity = "1"
     } else {
 
         input.style.borderColor = "red"
         pass.style.borderColor = "red"
-
+      
     }
     refers()
 

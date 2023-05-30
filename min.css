@@ -52,6 +52,32 @@ h1 {
     color: #000000;
     padding-top: 40px;
 }
+.tasdiq{
+    width: 200px;
+    height: 45px;
+    background: #383e4e;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+     color: white;
+     font-family: sans-serif;
+     border-radius: 5px;
+     transition: .4s;
+     opacity: -1;
+}
+.chet{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+ background-color: #33A169;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .form {
     width: 75%;
@@ -116,6 +142,7 @@ button:hover {
     background: #292e3a;
 
 }
+
 
 
 @media screen and (max-width:500px) {

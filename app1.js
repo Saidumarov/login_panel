@@ -56,7 +56,7 @@ function ok1() {
 
     document.querySelector(".menyu").style.height = "101vh"
 
-    document.querySelector('.button').style.top = "-100%"
+
 
 
 
@@ -198,12 +198,7 @@ function xx() {
     document.querySelector(".hed").style.display = "none"
 
 }
-// const divElements = document.querySelectorAll('.button')
 
-// divElements.forEach((element) => {
-//     element.style.top = "-100%"
- 
-// });
 
 
 
@@ -240,6 +235,41 @@ function xx6() {
 }
 function xx7() {
     modal7.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function btn() {
+    modal.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function btn1() {
+    modal1.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function btn2() {
+    modal2.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function btn3() {
+    modal3.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function btn4() {
+    modal4.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function btn5() {
+    modal5.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function btn6() {
+modal6.style.top = "-100%"
     document.querySelector(".hed").style.display = "none"
 
 }
