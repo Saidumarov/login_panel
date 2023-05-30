@@ -1,14 +1,4 @@
 
-// function ok1() {
-//     document.querySelector(".left").style.top = "105px"
-//     document.querySelector("#h1").style.color = "white"
-//     let color = document.querySelectorAll("#h2,#h3,#h4,.hh")
-//     color.forEach((element) => {
-//         element.style.color = '#7D808A';
-//     });
-
-// }
-
 function ok3() {
     document.querySelector(".left").style.top = "239px"
     document.querySelector("#h3").style.color = "white"
@@ -64,12 +54,14 @@ function ok1() {
         element.style.color = '#7D808A';
     });
 
+    document.querySelector(".menyu").style.height = "101vh"
+
+    document.querySelector('.button').style.top = "-100%"
 
 
 
-    
     let cat = document.querySelector(".catagory")
-    
+
     cat.addEventListener("click" , () =>{
         cat.style.backgroundColor = "#F6F6F6"
         const divElement = document.querySelectorAll('.catagory1 ,.catagory2,.catagory3,.catagory4,.catagory5 ,.catagory6')
@@ -155,13 +147,103 @@ function o1() {
     modal.style.top = "50px"
     document.querySelector(".hed").style.display = "block"
 }
+//   yangi
+let modal1  = document.querySelector(".modal1")
+  
+function o2() {
+  
+    modal1.style.top = "50px"
+    document.querySelector(".hed").style.display = "block"
+}
+
+let modal2  = document.querySelector(".modal2")
+function o3() {
+  
+    modal2.style.top = "50px"
+    document.querySelector(".hed").style.display = "block"
+}
+let modal3  = document.querySelector(".modal3")
+function o4() {
+  
+    modal3.style.top = "50px"
+    document.querySelector(".hed").style.display = "block"
+}
+let modal4  = document.querySelector(".modal4")
+function o5() {
+  
+    modal4.style.top = "50px"
+    document.querySelector(".hed").style.display = "block"
+}
+let modal5  = document.querySelector(".modal5")
+function o6() {
+  
+    modal5.style.top = "50px"
+    document.querySelector(".hed").style.display = "block"
+}
+let modal6  = document.querySelector(".modal6")
+function o7() {
+  
+    modal6.style.top = "50px"
+    document.querySelector(".hed").style.display = "block"
+}
+let modal7  = document.querySelector(".modal7")
+function o8() {
+  
+    modal7.style.top = "50px"
+    document.querySelector(".hed").style.display = "block"
+}
 
 function xx() {
     modal.style.top = "-100%"
     document.querySelector(".hed").style.display = "none"
 
 }
+// const divElements = document.querySelectorAll('.button')
 
+// divElements.forEach((element) => {
+//     element.style.top = "-100%"
+ 
+// });
+
+
+
+function xx1() {
+    modal1.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+
+function xx2() {
+    modal2.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function xx3() {
+    modal3.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function xx4() {
+    modal4.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function xx5() {
+    modal5.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function xx6() {
+    modal6.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+function xx7() {
+    modal7.style.top = "-100%"
+    document.querySelector(".hed").style.display = "none"
+
+}
+// yangi
 const  data = [{
 
 }]
@@ -307,26 +389,12 @@ cat6.addEventListener("click" , () =>{
     });
 })
 
-// let modal  = document.querySelector(".modal")
-
-function o1() {
-  
-    modal.style.top = "50px"
-    document.querySelector(".hed").style.display = "block"
-}
 
 
 
-function xx() {
-    modal.style.top = "-100%"
-    document.querySelector(".hed").style.display = "none"
 
-}
     
 
-await.addEventListener("click" , () =>{
-    
-})
 
 function buy() {
     document.querySelector("#hol1").style.backgroundColor = "#FCF1C9"
@@ -371,6 +439,302 @@ function buy5() {
 
 
 }
+
+// buy 2
+function buy6() {
+    document.querySelector("#hol2").style.backgroundColor = "#FCF1C9"
+    document.querySelector("#hol2").style.color = "#937200"
+    document.querySelector("#hol2").textContent = "buyurtma"
+
+
+}
+
+function buy7() {
+    document.querySelector("#hol2").style.backgroundColor = "#D9EDFF"
+    document.querySelector("#hol2").style.color = "#004D92"
+    document.querySelector("#hol2").textContent = "qabul"
+    
+
+
+}
+function buy8() {
+    document.querySelector("#hol2").style.backgroundColor = "#D9FFDA"
+    document.querySelector("#hol2").style.color = "#008C06"
+    document.querySelector("#hol2").textContent = "yetkazish"
+
+
+}
+function buy9() {
+    document.querySelector("#hol2").style.backgroundColor = "#E7D9FF"
+    document.querySelector("#hol2").style.color = "#320088"
+    document.querySelector("#hol2").textContent = "yakun"
+
+
+}
+function buy10() {
+    document.querySelector("#hol2").style.backgroundColor = "#FFD9D9"
+    document.querySelector("#hol2").style.color = "#BE0707"
+    document.querySelector("#hol2").textContent = "bekor"
+
+
+}
+function buy11() {
+    document.querySelector("#hol2").style.backgroundColor = "#D9FFF4"
+    document.querySelector("#hol2").style.color = "#06523C"
+    document.querySelector("#hol2").textContent = "tayyorlanmoqda"
+
+
+}
+
+
+// buy 2
+// buy 3
+function buy12() {
+    document.querySelector("#hol3").style.backgroundColor = "#FCF1C9"
+    document.querySelector("#hol3").style.color = "#937200"
+    document.querySelector("#hol3").textContent = "buyurtma"
+
+
+}
+
+function buy13() {
+    document.querySelector("#hol3").style.backgroundColor = "#D9EDFF"
+    document.querySelector("#hol3").style.color = "#004D92"
+    document.querySelector("#hol3").textContent = "qabul"
+    
+
+
+}
+function buy14() {
+    document.querySelector("#hol3").style.backgroundColor = "#D9FFDA"
+    document.querySelector("#hol3").style.color = "#008C06"
+    document.querySelector("#hol3").textContent = "yetkazish"
+
+
+}
+function buy15() {
+    document.querySelector("#hol3").style.backgroundColor = "#E7D9FF"
+    document.querySelector("#hol3").style.color = "#320088"
+    document.querySelector("#hol3").textContent = "yakun"
+
+
+}
+function buy16() {
+    document.querySelector("#hol3").style.backgroundColor = "#FFD9D9"
+    document.querySelector("#hol3").style.color = "#BE0707"
+    document.querySelector("#hol3").textContent = "bekor"
+
+
+}
+function buy17() {
+    document.querySelector("#hol3").style.backgroundColor = "#D9FFF4"
+    document.querySelector("#hol3").style.color = "#06523C"
+    document.querySelector("#hol3").textContent = "tayyorlanmoqda"
+
+
+}
+
+
+// buy 3
+// buy 4
+function buy18() {
+    document.querySelector("#hol4").style.backgroundColor = "#FCF1C9"
+    document.querySelector("#hol4").style.color = "#937200"
+    document.querySelector("#hol4").textContent = "buyurtma"
+
+
+}
+
+function buy19() {
+    document.querySelector("#hol4").style.backgroundColor = "#D9EDFF"
+    document.querySelector("#hol4").style.color = "#004D92"
+    document.querySelector("#hol4").textContent = "qabul"
+    
+
+
+}
+function buy20() {
+    document.querySelector("#hol4").style.backgroundColor = "#D9FFDA"
+    document.querySelector("#hol4").style.color = "#008C06"
+    document.querySelector("#hol4").textContent = "yetkazish"
+
+
+}
+function buy21() {
+    document.querySelector("#hol4").style.backgroundColor = "#E7D9FF"
+    document.querySelector("#hol4").style.color = "#320088"
+    document.querySelector("#hol4").textContent = "yakun"
+
+
+}
+function buy22() {
+    document.querySelector("#hol4").style.backgroundColor = "#FFD9D9"
+    document.querySelector("#hol4").style.color = "#BE0707"
+    document.querySelector("#hol4").textContent = "bekor"
+
+
+}
+function buy23() {
+    document.querySelector("#hol4").style.backgroundColor = "#D9FFF4"
+    document.querySelector("#hol4").style.color = "#06523C"
+    document.querySelector("#hol4").textContent = "tayyorlanmoqda"
+
+
+}
+
+
+// buy 4
+
+// buy 5
+function buy24() {
+    document.querySelector("#hol5").style.backgroundColor = "#FCF1C9"
+    document.querySelector("#hol5").style.color = "#937200"
+    document.querySelector("#hol5").textContent = "buyurtma"
+
+
+}
+
+function buy25() {
+    document.querySelector("#hol5").style.backgroundColor = "#D9EDFF"
+    document.querySelector("#hol5").style.color = "#004D92"
+    document.querySelector("#hol5").textContent = "qabul"
+    
+
+
+}
+function buy26() {
+    document.querySelector("#hol5").style.backgroundColor = "#D9FFDA"
+    document.querySelector("#hol5").style.color = "#008C06"
+    document.querySelector("#hol5").textContent = "yetkazish"
+
+
+}
+function buy27() {
+    document.querySelector("#hol5").style.backgroundColor = "#E7D9FF"
+    document.querySelector("#hol5").style.color = "#320088"
+    document.querySelector("#hol5").textContent = "yakun"
+
+
+}
+function buy28() {
+    document.querySelector("#hol5").style.backgroundColor = "#FFD9D9"
+    document.querySelector("#hol5").style.color = "#BE0707"
+    document.querySelector("#hol5").textContent = "bekor"
+
+
+}
+function buy29() {
+    document.querySelector("#hol5").style.backgroundColor = "#D9FFF4"
+    document.querySelector("#hol5").style.color = "#06523C"
+    document.querySelector("#hol5").textContent = "tayyorlanmoqda"
+
+
+}
+
+
+// buy 5
+
+
+// buy 6
+function buy30() {
+    document.querySelector("#hol6").style.backgroundColor = "#FCF1C9"
+    document.querySelector("#hol6").style.color = "#937200"
+    document.querySelector("#hol6").textContent = "buyurtma"
+
+
+}
+
+function buy31() {
+    document.querySelector("#hol6").style.backgroundColor = "#D9EDFF"
+    document.querySelector("#hol6").style.color = "#004D92"
+    document.querySelector("#hol6").textContent = "qabul"
+    
+
+
+}
+function buy32() {
+    document.querySelector("#hol6").style.backgroundColor = "#D9FFDA"
+    document.querySelector("#hol6").style.color = "#008C06"
+    document.querySelector("#hol6").textContent = "yetkazish"
+
+
+}
+function buy33() {
+    document.querySelector("#hol6").style.backgroundColor = "#E7D9FF"
+    document.querySelector("#hol6").style.color = "#320088"
+    document.querySelector("#hol6").textContent = "yakun"
+
+
+}
+function buy34() {
+    document.querySelector("#hol6").style.backgroundColor = "#FFD9D9"
+    document.querySelector("#hol6").style.color = "#BE0707"
+    document.querySelector("#hol6").textContent = "bekor"
+
+
+}
+function buy35() {
+    document.querySelector("#hol6").style.backgroundColor = "#D9FFF4"
+    document.querySelector("#hol6").style.color = "#06523C"
+    document.querySelector("#hol6").textContent = "tayyorlanmoqda"
+
+
+}
+
+
+// buy 6
+
+// buy 7
+function buy36() {
+    document.querySelector("#hol7").style.backgroundColor = "#FCF1C9"
+    document.querySelector("#hol7").style.color = "#937200"
+    document.querySelector("#hol7").textContent = "buyurtma"
+
+
+}
+
+function buy37() {
+    document.querySelector("#hol7").style.backgroundColor = "#D9EDFF"
+    document.querySelector("#hol7").style.color = "#004D92"
+    document.querySelector("#hol7").textContent = "qabul"
+    
+
+
+}
+function buy38() {
+    document.querySelector("#hol7").style.backgroundColor = "#D9FFDA"
+    document.querySelector("#hol7").style.color = "#008C06"
+    document.querySelector("#hol7").textContent = "yetkazish"
+
+
+}
+function buy39() {
+    document.querySelector("#hol7").style.backgroundColor = "#E7D9FF"
+    document.querySelector("#hol7").style.color = "#320088"
+    document.querySelector("#hol7").textContent = "yakun"
+
+
+}
+function buy40() {
+    document.querySelector("#hol7").style.backgroundColor = "#FFD9D9"
+    document.querySelector("#hol7").style.color = "#BE0707"
+    document.querySelector("#hol7").textContent = "bekor"
+
+
+}
+function buy41() {
+    document.querySelector("#hol7").style.backgroundColor = "#D9FFF4"
+    document.querySelector("#hol7").style.color = "#06523C"
+    document.querySelector("#hol7").textContent = "tayyorlanmoqda"
+
+
+}
+
+
+// buy 7
+
+
+
 
 
 

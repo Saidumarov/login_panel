@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +29,7 @@ nav {
 
 .menyu {
     width: 18%;
-    height: 100vh;
+    height: 101vh;
     background: #2E3444;
 
 
@@ -298,7 +296,7 @@ select {
     width: 96%;
     height: 77.5vh;
     /* background-color: aqua; */
-    margin: 20px auto 0 auto;
+    margin: 29px auto 0 auto;
     border-radius: 10px 10px 0px 0px;
 
 }
@@ -348,36 +346,47 @@ select {
     font-weight: 550;
 
 }
+
 .catagory1 p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 550;
 
-}.catagory2 p {
+}
+
+.catagory2 p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 550;
 
-}.catagory3 p {
+}
+
+.catagory3 p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 550;
 
-}.catagory4 p {
+}
+
+.catagory4 p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 550;
 
-}.catagory5 p {
+}
+
+.catagory5 p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 550;
 
-}.catagory6 p {
+}
+
+.catagory6 p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 550;
-    
+
 
 }
 
@@ -446,11 +455,11 @@ select {
     margin-left: 5px;
 }
 
-.c1{
-    text-align: center; 
+.c1 {
+    text-align: center;
 }
 
-.not{
+.not {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -459,21 +468,29 @@ select {
 }
 
 
-.modal{
+.modal,
+.modal1,
+.modal2,
+.modal3,
+.modal4,
+.modal5,
+.modal6,
+.modal7 {
     width: 400px;
     height: 500px;
     background-color: rgb(248, 241, 241);
     position: absolute;
     z-index: 5;
     margin-left: 700px;
-    /* top: -100%; */
+    top: -100%;
     transition: .4s;
     border-radius: 8px;
-   
-    
+
+
 }
 
-.xx{
+
+.xx {
     width: 50px;
     height: 50px;
     background-color: #3EB597;
@@ -482,17 +499,19 @@ select {
     position: absolute;
     right: 0;
     cursor: pointer;
-    border-radius: 0 8px 0 0 ;
+    border-radius: 0 8px 0 0;
 
 }
-.xs{
+
+.xs {
     height: 35px;
     width: 3px;
     background-color: white;
     transform: rotate(44deg);
     margin: 7px 0 0 0;
 }
-.xss{
+
+.xss {
     height: 35px;
     width: 3px;
     background-color: white;
@@ -502,7 +521,7 @@ select {
 
 }
 
-.hed{
+.hed {
     width: 100%;
     height: 100vh;
     background-color: #000000;
@@ -513,7 +532,7 @@ select {
     transition: .4s;
 }
 
-.mholat{
+.mholat {
     font-size: 26px;
     font-family: sans-serif;
     text-align: center;
@@ -521,7 +540,7 @@ select {
 
 }
 
-.input{
+.input {
     width: 25px;
     height: 25px;
     margin: 20px 0 0 50px;
@@ -529,11 +548,11 @@ select {
     display: block;
 }
 
-.con{
+.con {
     margin: 20px 0 0 100px;
 }
 
-.form{
+.form {
     display: block;
     position: relative;
     padding-left: 50px;
@@ -542,23 +561,23 @@ select {
     /* cursor: pointer; */
 }
 
-.cons{
+.cons {
     position: absolute;
     left: 0;
     top: 0;
     height: 24px;
     width: 24px;
-    background-color:#ddd;
+    background-color: #ddd;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.form input:checked ~ .cons{
+.form input:checked~.cons {
     background-color: rgb(39, 60, 176);
 }
 
-.cons::after{
-    top:8px;
+.cons::after {
+    top: 8px;
     left: 8px;
     width: 8px;
     height: 8px;
@@ -572,65 +591,79 @@ select {
 
 
 
-    .form input:checked ~ .cons::after{
+.form input:checked~.cons::after {
     display: block;
 }
 
-.form input{
+.form input {
     opacity: 0;
     cursor: pointer;
     position: absolute;
 }
 
-span{
+span {
     background-color: #000000;
 }
 
 
-.holat{
+.holat {
     font-size: 20px;
     text-align: center;
     padding-top: 8px;
 }
 
-#hol1{
+#hol1 {
     background: #FCF1C9;
     color: #937200;
 }
-#hol2{
+
+#hol2 {
 
     background: #D9EDFF;
-    color:  #004D92;
+    color: #004D92;
 }
-#hol4{
+
+#hol4 {
     background: #E7D9FF;
     color:
-    #320088;
+        #320088;
 }
-#hol5{
+
+#hol5 {
     background: #FFD9D9;
     color:
-    #BE0707;
+        #BE0707;
 }
-#hol6{
+
+#hol6 {
     background: #D9FFF4;
     color:
-    
-#06523C
+
+        #06523C
 }
-#hol7{
+
+#hol7 {
     background: #FFD9D9;
     color:
-    #BE0707;
+        #BE0707;
 }
-#hol3{
+
+#hol3 {
     background: #D9FFDA;
     color: #008C06;
 }
 
 
 
+button{
+    width: 180px;
+    height: 40px;
+    background: #2E3444;
+    border-radius: 8px;
+    border: none;
+    margin: 30px 0 0 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
 
-
-
-
+}
